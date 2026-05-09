@@ -18,8 +18,8 @@ UA_COLUMN = "user_agent"
 REFERER_COLUMN = "referer"
 
 LOG_FILE = "request_log.csv"
-MIN_MINUTES = 3
-MAX_MINUTES = 12
+MIN_MINUTES = 5
+MAX_MINUTES = 60
 TIMEOUT = 30
 
 app = Flask(__name__)
