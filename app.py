@@ -11,7 +11,7 @@ from flask import Flask
 
 URL = "https://track.radantus.com/65ae106a-db60-410d-901d-12cad1b3236b"
 
-FILE_URL = "https://raw.githubusercontent.com/TWOJ_LOGIN/TWOJE_REPO/main/IP_Poland_2.csv"
+FILE_URL = "https://raw.githubusercontent.com/radoslawsznajder/grzybiarz-traffic-generator/refs/heads/main/IP_Poland_2.csv"
 
 IP_COLUMN = "ip_address"
 UA_COLUMN = "user_agent"
