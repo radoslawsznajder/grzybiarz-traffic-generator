@@ -28,7 +28,7 @@ MAX_MINUTES = 60
 TIMEOUT = 30
 
 # Cloudflare Worker do logowania
-LOG_ENDPOINT = "https://grzybiarz-traffic-generator.radoslaw-sznajder.workers.dev/"
+LOG_ENDPOINT = "https://grzybiarz-traffic-generator.radoslaw-sznajder.workers.dev/log"
 LOG_API_TOKEN = os.environ["LOG_API_TOKEN"]
 
 app = Flask(__name__)
